@@ -54,12 +54,6 @@ public class SlingOfFreezing extends Sling {
         return "sling of freezing";
     }
 
-    @Override
-    public String toString() {
-        // TODO Auto-generated method stub
-        return super.toString();
-    }
-
     public static void main(String args[]) {
         Sling normalSling = new Sling();
         SlingOfFreezing magicSling = new SlingOfFreezing();
@@ -77,5 +71,7 @@ public class SlingOfFreezing extends Sling {
         System.out.println("Magic Sling: " + canAddStone);
         boolean canRemoveStone = normalSling.removeItem(smallerStone);
         System.out.println(canRemoveStone);
+
+        System.out.println(magicSling.toString());
     }
 }
