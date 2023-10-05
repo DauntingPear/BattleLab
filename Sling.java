@@ -114,8 +114,8 @@ public class Sling extends Weapon implements Container {
         outputString += this.getDescription() + "\n";
         outputString += "It has " + this.getHealth() + " health left.\n\n";
 
-        outputString += "The " + this.getName() + " contains: \n";
-        outputString += "    A " + containedItems.get(i).getName() + "\n";
+        outputString += "The " + this.getName() + " contains:\n";
+        outputString += "    A " + containedItems.get(i).getName();
         return outputString;
     }
 }
